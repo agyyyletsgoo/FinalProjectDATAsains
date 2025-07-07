@@ -1,0 +1,70 @@
+/* === Background & Font === */
+.stApp {
+    background-color: #f9f9f9; /* warna latar putih terang */
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+}
+
+/* === Header / Judul === */
+h1, h2, h3, h4 {
+    color: #0d47a1; /* biru navy */
+    text-align: center;
+    font-weight: 700;
+}
+
+/* === Label Form Input === */
+label, .stSelectbox label, .stNumberInput label {
+    font-weight: 600;
+    color: #333333;
+    font-size: 16px;
+}
+
+/* === Input Box & Pilihan === */
+.stSelectbox div[data-baseweb="select"], 
+.stTextInput input, 
+.stNumberInput input, 
+.stSlider {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* === Tombol === */
+div.stButton > button:first-child {
+    background-color: #0d47a1; /* biru tua */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+div.stButton > button:hover {
+    background-color: #002171;
+    color: white;
+}
+
+/* === Hasil Prediksi (Error / Success Box) === */
+.stAlert {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* === Teks Table / Dataframe === */
+table {
+    background-color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #212121;
+}
+
+/* === Footer atau tambahan text === */
+footer {
+    visibility: hidden;
+}
